@@ -1,0 +1,38 @@
+.features {
+    padding-bottom: 47px;
+}
+
+.features-set {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--card-set-gap));
+    margin-top: calc(-1 * var(--card-set-gap));
+}
+
+.features-set .item {
+    flex-basis: calc((100% - 4 * var(--card-set-gap)) / 4);
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+}
+
+.features-set .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--button-section-bg);
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.features-text {
+    font-size: 14px;
+    line-height: 1.71;
+}
