@@ -85,6 +85,22 @@ body {
   padding-bottom: 94px;
 }
 
+.button {
+  min-width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  background: var(--accent-color);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-active-color);
+  cursor: pointer;
+}
+
 .current-color {
   fill: currentColor;
 }
@@ -209,29 +225,16 @@ body {
   margin: 0 auto;
 }
 
-.hero-button {
-  min-width: 200px;
-  padding: 10px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: inherit;
-  color: var(--white-active-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  text-align: center;
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
+.hero__button {
+  padding-left: 32px;
+  padding-right: 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-  border: none;
 }
-
-.hero-button:hover {
+.hero__button:hover, .hero__button:focus {
   background-color: #188ce8;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -648,21 +651,12 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-form-btn {
+.footer__button {
   display: flex;
-  min-width: 200px;
   align-items: center;
   justify-content: center;
-  padding: 10px 29px;
-  background-color: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border: none;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  color: #ffffff;
-  letter-spacing: 0.06em;
+  padding-left: 29px;
+  padding-right: 29px;
 }
 
 .footer-form-img-wrapper {
@@ -857,17 +851,8 @@ body {
 
 .modal-form-btn {
   align-self: center;
-  min-width: 200px;
-  padding: 10px 55px;
-  border: none;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: #ffffff;
+  padding-left: 55px;
+  padding-right: 55px;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

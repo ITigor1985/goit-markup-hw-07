@@ -42,18 +42,20 @@
         </div>
     </header>
     <main>
+        <!-- ----------------HERO------------------------------ -->
         <section class="hero">
             <div class="container">
-                <h1 class="hero-title">
+                <h1 class="hero__title">
                     Эффективные решения<br /> для вашего бизнеса
                 </h1>
-                <button type="button" class="hero-button button" data-modal-open>Заказать услугу</button>
+                <button type="button" class="button hero__button " data-modal-open>Заказать услугу</button>
             </div>
-
         </section>
+        <!-- -------------END HERO----------------------------- -->
+        <!-- -----------------FEATURES----------------------------- -->
         <section class="features section">
             <div class="container">
-                <h2 class="hidden">Особенности</h2>
+                <h2 class="features__header hidden">Особенности</h2>
                 <ul class="features-set list">
                     <li class="item item-antenna">
                         <div class="icon-container">
@@ -102,6 +104,7 @@
                 </ul>
             </div>
         </section>
+        <!-- --------------------END FEATURES------------------------ -->
         <section class="work section">
             <div class="container">
                 <h2 class="work-title title">Чем мы занимаемся</h2>
@@ -347,7 +350,7 @@
                 <p class="footer-form-head">Подпишитесь на рассылку</p>
                 <form class="footer-form" action="#">
                     <input class="footer-form-input" type="email" name="e-mail" placeholder="E-mail">
-                    <button class="footer-form-btn" type="submit"><span>Подписаться</span><span class="footer-form-img-wrapper"><img class="footer-form-img" src="./images/icon-send.svg" width="24" height="24"></span></button>
+                    <button class="button footer__button" type="submit"><span>Подписаться</span><span class="footer-form-img-wrapper"><img class="footer-form-img" src="./images/icon-send.svg" width="24" height="24"></span></button>
                 </form>
             </div>
         </div>
@@ -396,7 +399,7 @@
 
                 <input class="modal-form-checkbox hidden" type="checkbox" name="agreement" id="form-agreement">
                 <label class="modal-form-checkbox-label" for="form-agreement">Соглашаюсь с рассылкой и принимаю &nbsp; <a class="modal-form-label-link" href="#">Условия договора</a></label>
-                <button class="modal-form-btn" type="submit">Отправить</button>
+                <button class="button modal-form-btn " type="submit">Отправить</button>
             </form>
         </div>
     </div>
