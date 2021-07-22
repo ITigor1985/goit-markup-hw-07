@@ -2,16 +2,16 @@
     padding-top: 47px;
 }
 
-.work .list {
+.work__list {
     display: flex;
     justify-content: space-between;
 }
 
-.image-wrapper {
+.work__image-wrapper {
     position: relative;
 }
 
-.work-text-wrapper {
+.work__text-wrapper {
     position: absolute;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-text {
+.work__text {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
