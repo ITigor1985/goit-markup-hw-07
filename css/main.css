@@ -481,6 +481,12 @@ body {
   margin-top: calc(-1 * var(--card-set-gap));
 }
 
+.list-card > .list-card__item {
+  flex-basis: calc(100% / 3 - var(--card-set-gap));
+  margin-left: var(--card-set-gap);
+  margin-top: var(--card-set-gap);
+}
+
 .list-card__image-wrapper {
   position: relative;
   overflow: hidden;
@@ -506,12 +512,6 @@ body {
 .list-card__link:hover .list-card__desc,
 .list-card__link:focus .list-card__desc {
   transform: translateY(0%);
-}
-
-.list-card > .list-card__item {
-  flex-basis: calc(100% / 3 - var(--card-set-gap));
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
 }
 
 .list-card__content {

@@ -52,6 +52,15 @@
   margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
 }
+
+.list-card__item {
+  .list-card > & {
+    flex-basis: calc(100% / 3 - var(--card-set-gap));
+    margin-left: var(--card-set-gap);
+    margin-top: var(--card-set-gap);
+  }
+}
+
 .list-card__image-wrapper {
   position: relative;
   overflow: hidden;
@@ -76,14 +85,6 @@
   .list-card__link:hover &,
   .list-card__link:focus & {
     transform: translateY(0%);
-  }
-}
-
-.list-card__item {
-  .list-card > & {
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
   }
 }
 
