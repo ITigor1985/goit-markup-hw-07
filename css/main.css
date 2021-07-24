@@ -42,7 +42,7 @@ img {
 
 body {
   color: var(--main-text-color);
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -61,7 +61,7 @@ body {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   font-weight: 700;
@@ -109,6 +109,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .social-links__item-link {
   display: inline-flex;
   align-items: center;
@@ -119,13 +120,16 @@ body {
   height: 44px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .social-links__item-link_grey-color {
   color: #afb1b8;
 }
+
 .social-links__item-link_white-color {
   color: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .social-links__item-link:hover, .social-links__item-link:focus {
   color: var(--white-active-color);
   background-color: var(--accent-color);
@@ -184,6 +188,7 @@ body {
   margin-left: 50px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .site-nav__link:hover, .site-nav__link:focus {
   color: var(--accent-color);
 }
@@ -191,8 +196,9 @@ body {
 .site-nav__link_current {
   color: var(--accent-color);
 }
+
 .site-nav__link_current::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: 0%;
@@ -215,6 +221,7 @@ body {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .header__contact-link:hover, .header__contact-link:focus {
   color: var(--accent-color);
 }
@@ -224,6 +231,7 @@ body {
   align-items: center;
   color: var(--main-text-color);
 }
+
 .header__contact-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -261,6 +269,7 @@ body {
   padding-right: 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero__button:hover, .hero__button:focus {
   background-color: #188ce8;
 }
@@ -416,6 +425,7 @@ body {
   color: #afb1b8;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .clients-list__link:hover, .clients-list__link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
@@ -559,6 +569,7 @@ body {
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
@@ -612,20 +623,12 @@ body {
   color: #ffffff;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .form__input:focus {
   outline: none;
   border: 1px solid #2196f3;
 }
-.form__input::-moz-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
-}
-.form__input:-ms-input-placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .form__input::placeholder {
   font-size: 16px;
   line-height: 1.25;
@@ -769,20 +772,6 @@ body {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-textarea::-moz-placeholder {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form-textarea:-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .modal-form-textarea::placeholder {
   font-size: 12px;
   line-height: 1.16;
@@ -810,7 +799,7 @@ body {
 
 .modal-form-checkbox-label::before {
   display: inline-block;
-  content: "";
+  content: '';
   width: 16px;
   height: 15px;
   border: 1px solid black;
@@ -839,4 +828,5 @@ body {
 
 .modal-form-btn:hover {
   background: #188ce8;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
