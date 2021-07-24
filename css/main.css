@@ -236,14 +236,14 @@ body {
   margin-right: 50px;
 }
 
-.icon-envelope {
+.header__icon-envelope {
   margin-right: 10px;
   fill: currentColor;
   width: 16px;
   height: 12px;
 }
 
-.icon-vector {
+.header__icon-vector {
   margin-right: 10px;
   fill: currentColor;
   width: 10px;
