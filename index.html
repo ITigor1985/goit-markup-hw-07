@@ -413,47 +413,47 @@
     <!-- ----------------------------MODAL WINDOW -------------------------------------->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
-            <button type="button" class="btn-modal" data-modal-close>
-                <svg class="icon-close-black" width="18" height="18">
+            <button type="button" class="modal-window__close-btn" data-modal-close>
+                <svg class="modal-window__icon-close" width="18" height="18">
                     <use href="./images/symbol-defs.svg#icon-close-black"></use>
                 </svg>
             </button>
             <form class="modal-form">
-                <p class="modal-form-head">Оставьте свои данные, мы вам перезвоним</p>
+                <p class="modal-form__head">Оставьте свои данные, мы вам перезвоним</p>
 
-                <label class="modal-form-label" for="form-name">Имя</label>
-                <div class="modal-form-input-wrapper">
-                    <input class="modal-form-input" minlength="2" type="text" name="username" id="form-name">
-                    <svg class="icon-user modal-form-icon" width="18" height="18">
+                <label class="modal-form__label" for="form-name">Имя</label>
+                <div class="modal-form__input-wrapper">
+                    <input class="modal-form__input" minlength="2" type="text" name="username" id="form-name">
+                    <svg class="icon-user modal-form__icon" width="18" height="18">
                             <use href="./images/symbol-defs.svg#icon-user"></use>
                         </svg>
                 </div>
 
-                <label class="modal-form-label" for="form-telephon">Телефон</label>
-                <div class="modal-form-input-wrapper">
-                    <input class="modal-form-input" type="tel" name="telephon" id="form-telephon">
-                    <svg class="icon-phone modal-form-icon" width="18" height="18">
+                <label class="modal-form__label" for="form-telephon">Телефон</label>
+                <div class="modal-form__input-wrapper">
+                    <input class="modal-form__input" type="tel" name="telephon" id="form-telephon">
+                    <svg class="icon-phone modal-form__icon" width="18" height="18">
                             <use href="./images/symbol-defs.svg#icon-phone"></use>
                         </svg>
                 </div>
 
 
-                <label class="modal-form-label" for="form-mail">Почта</label>
-                <div class="modal-form-input-wrapper">
-                    <input class="modal-form-input" type="email" name="mail" id="form-mail">
-                    <svg class="icon-email modal-form-icon" width="18" height="18">
+                <label class="modal-form__label" for="form-mail">Почта</label>
+                <div class="modal-form__input-wrapper">
+                    <input class="modal-form__input" type="email" name="mail" id="form-mail">
+                    <svg class="icon-email modal-form__icon" width="18" height="18">
                             <use href="./images/symbol-defs.svg#icon-email"></use>
                         </svg>
                 </div>
 
 
 
-                <label class="modal-form-label" for="form-comment">Комментарий</label>
-                <textarea class="modal-form-textarea" name="comment" id="form-comment" placeholder="Введите текст"></textarea>
+                <label class="modal-form__label" for="form-comment">Комментарий</label>
+                <textarea class="modal-form__textarea" name="comment" id="form-comment" placeholder="Введите текст"></textarea>
 
-                <input class="modal-form-checkbox hidden" type="checkbox" name="agreement" id="form-agreement">
+                <input class="modal-form__checkbox hidden" type="checkbox" name="agreement" id="form-agreement">
                 <label class="modal-form-checkbox-label" for="form-agreement">Соглашаюсь с рассылкой и принимаю &nbsp; <a class="modal-form-label-link" href="#">Условия договора</a></label>
-                <button class="button modal-form-btn " type="submit">Отправить</button>
+                <button class="button button__modal-form " type="submit">Отправить</button>
             </form>
         </div>
     </div>
