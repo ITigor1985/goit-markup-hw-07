@@ -821,9 +821,9 @@ body {
 }
 
 .button__modal-form {
-  align-self: center;
   padding-left: 55px;
   padding-right: 55px;
+  align-self: center;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
